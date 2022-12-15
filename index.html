@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Ежедневник</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<ul class="week">
+			<li class="day">
+				<div class="day__name">Понедельник</div>
+				<div class="day__body js-field">
+					<div class="element" draggable="true" id="teeth">Почистить зубы</div>
+					<div class="element" draggable="true" id="bed">Заправить постель</div>
+				</div>
+			</li>
+			<li class="day">
+				<div class="day__name">Вторник</div>
+				<div class="day__body js-field"></div>
+			</li>
+			<li class="day">
+				<div class="day__name">Среда</div>
+				<div class="day__body js-field"></div>
+			</li>
+			<li class="day">
+				<div class="day__name">Четверг</div>
+				<div class="day__body js-field"></div>
+			</li>
+			<li class="day">
+				<div class="day__name">Пятница</div>
+				<div class="day__body js-field"></div>
+			</li>
+			<li class="day">
+				<div class="day__name">Суббота</div>
+				<div class="day__body js-field"></div>
+			</li>
+			<li class="day">
+				<div class="day__name">Воскресенье</div>
+				<div class="day__body js-field"></div>
+			</li>
+		</ul>
+		<div class="create-item">
+			<form action="" class="form">
+				<input type="text" class="item" placeholder="Введите задачу">
+				<button type="submit">Создать</button>
+			</form>
+			<div class="place-for-element"></div>
+			<div class="trash-can">
+				<img class="img js-field" src="imgs/del.webp" alt="Мусорка">
+			</div>
+		</div>
+	</div>
+	<div class="message">Сообщение скопировано</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
